@@ -21,6 +21,7 @@
 		335B0FE0210C285F00D27ABD /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B0FDF210C285F00D27ABD /* ImageDownloader.swift */; };
 		335B0FE2210C5BF900D27ABD /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B0FE1210C5BF900D27ABD /* UserListViewModel.swift */; };
 		335B0FE5210C646100D27ABD /* UserCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B0FE4210C646100D27ABD /* UserCellViewModel.swift */; };
+		335B0FE7210C6A7400D27ABD /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B0FE6210C6A7400D27ABD /* TimeLineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		335B0FDF210C285F00D27ABD /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		335B0FE1210C5BF900D27ABD /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
 		335B0FE4210C646100D27ABD /* UserCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewModel.swift; sourceTree = "<group>"; };
+		335B0FE6210C6A7400D27ABD /* TimeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				335B0FAE210BFA6C00D27ABD /* Assets.xcassets */,
 				335B0FB0210BFA6C00D27ABD /* LaunchScreen.storyboard */,
 				335B0FB3210BFA6C00D27ABD /* Info.plist */,
+				335B0FE8210C6A7A00D27ABD /* ViewController */,
 				335B0FE3210C5C0500D27ABD /* ViewModel */,
 				335B0FD9210C202800D27ABD /* Model */,
 			);
@@ -168,6 +171,14 @@
 				335B0FE4210C646100D27ABD /* UserCellViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		335B0FE8210C6A7A00D27ABD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				335B0FE6210C6A7400D27ABD /* TimeLineViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +315,7 @@
 				335B0FD8210C200900D27ABD /* User.swift in Sources */,
 				335B0FE2210C5BF900D27ABD /* UserListViewModel.swift in Sources */,
 				335B0FAA210BFA6A00D27ABD /* SecondViewController.swift in Sources */,
+				335B0FE7210C6A7400D27ABD /* TimeLineViewController.swift in Sources */,
 				335B0FE0210C285F00D27ABD /* ImageDownloader.swift in Sources */,
 				335B0FA6210BFA6A00D27ABD /* AppDelegate.swift in Sources */,
 				335B0FE5210C646100D27ABD /* UserCellViewModel.swift in Sources */,
