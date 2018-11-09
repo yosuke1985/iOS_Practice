@@ -106,11 +106,11 @@
 		48AC74C520A66C2A00AA1788 /* RWRC */ = {
 			isa = PBXGroup;
 			children = (
+				48AC74D820A66C7A00AA1788 /* View Controllers */,
 				48AC74DA20A66C9700AA1788 /* Controllers */,
 				4859775820A68C9B00429CB3 /* Extensions */,
 				48AC74D920A66C8600AA1788 /* Models */,
 				48AC74DC20A66CB800AA1788 /* Supporting Files */,
-				48AC74D820A66C7A00AA1788 /* View Controllers */,
 			);
 			path = RWRC;
 			sourceTree = "<group>";
